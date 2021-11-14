@@ -6,6 +6,7 @@ import Home from './Home'
 import Survey from './Survey'
 import Question from './Question'
 import Result from './Result';
+import ElevenAdmin from './ElevenAdmin';
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/survey" element={<Survey />} />
         <Route path="/question" element={<Question />} />
         <Route path="/result" element={<Result />} />
+        <Route path="/elevenAdmin" element={<ElevenAdmin />} />
       </Routes>
     </Router>
   );
