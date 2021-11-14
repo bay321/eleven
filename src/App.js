@@ -15,7 +15,7 @@ function App() {
   },[])
 
   useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: "11웹사이트 유입 수" });
+    // ReactGA.send({ hitType: "pageview", page: "웹사이트 유입 수" });
   }, [])
 
   return (

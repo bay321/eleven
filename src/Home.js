@@ -17,8 +17,11 @@ function Home() {
   //   })
   //   alert("sent the info")
   // }
+  useEffect(()=>{
+    ReactGA.initialize('G-61TBSKKBM7')
+  },[])
   useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: "11홈페이지 방문 수" });
+    ReactGA.send({ hitType: "pageview", page: "홈페이지 방문 수" });
   }, [])
   return (
     <div class="container">

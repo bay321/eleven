@@ -14,7 +14,7 @@ function Survey() {
     //     alert("sent the info")
     // }
     useEffect(() => {
-        ReactGA.send({ hitType: "pageview", page: "11survey 페이지 접속 수" });
+        ReactGA.send({ hitType: "pageview", page: "survey 페이지 접속 수" });
     }, [])
     return (
         <div>

@@ -5,7 +5,7 @@ import logo from'./logo.png'
 function Result() {
 
     useEffect(() => {
-        ReactGA.send({ hitType: "pageview", page: "11result 페이지 접속 수" });
+        ReactGA.send({ hitType: "pageview", page: "result 페이지 접속 수" });
     }, [])
 
     return (

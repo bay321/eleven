@@ -391,7 +391,7 @@ function Question() {
     })
   }, [status])
   useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: "11question 페이지 접속 수" });
+    ReactGA.send({ hitType: "pageview", page: "question 페이지 접속 수" });
   }, [])
   return (
     <div>
